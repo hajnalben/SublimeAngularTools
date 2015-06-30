@@ -1,0 +1,54 @@
+[{
+  "caption" : "Bower: Install package",
+  "command" : "bower_install"
+},
+{
+  "caption" : "Bower: Uninstall package",
+  "command" : "bower_uninstall"
+},
+{
+  "caption" : "Yo: Route",
+  "command" : "route"
+},
+{
+  "caption" : "Yo: Controller",
+  "command" : "controller"
+},
+{
+  "caption" : "Yo: View",
+  "command" : "view"
+},
+{
+  "caption" : "Yo: Directive",
+  "command" : "directive"
+},
+{
+  "caption" : "Yo: Filter",
+  "command" : "filter"
+},
+{ "caption": "-" },
+{
+  "caption" : "Yo: Factory",
+  "command" : "factory"
+},
+{
+  "caption" : "Yo: Service",
+  "command" : "service"
+},
+{
+  "caption" : "Yo: Decorator",
+  "command" : "decorator"
+},
+{ "caption": "-" },
+{
+  "caption" : "Yo: Provider",
+  "command" : "provider"
+},
+{
+  "caption" : "Yo: Value",
+  "command" : "value"
+},
+{
+  "caption" : "Yo: Constant",
+  "command" : "constant"
+}]

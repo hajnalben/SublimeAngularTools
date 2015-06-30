@@ -1,0 +1,90 @@
+[	
+	{
+	    "id" : "grunt",
+	    "caption" : "Grunt",
+	    "children": [
+	    	{
+	    		"caption" : "Serve start (kill nodejs process manually)",
+	    		"command" : "grunt_serve"
+	    	},
+	    	{
+	    		"caption" : "Test",
+	    		"command" : "grunt_test"
+	    	},
+	    	{
+	    		"caption" : "Build",
+	    		"command" : "grunt_build"
+	    	},
+	    	{
+	    		"caption" : "Dist",
+	    		"command" : "grunt"
+	    	}
+	    ]
+	},
+	{
+	    "id" : "bower",
+	    "caption" : "Bower",
+	    "children": [
+	    	{
+	    		"caption" : "Install package",
+	    		"command" : "bower_install"
+	    	},
+	    	{
+	    		"caption" : "Uninstall package",
+	    		"command" : "bower_uninstall"
+	    	}
+	    ]
+	},
+	{
+	    "id" : "yeoman",
+	    "caption" : "Yeoman",
+	    "children": [
+	    	{
+	    		"caption" : "Route",
+	    		"command" : "route"
+	    	},
+	    	{
+	    		"caption" : "Controller",
+	    		"command" : "controller"
+	    	},
+	    	{
+	    		"caption" : "View",
+	    		"command" : "view"
+	    	},
+	    	{
+	    		"caption" : "Directive",
+	    		"command" : "directive"
+	    	},
+	    	{
+	    		"caption" : "Filter",
+	    		"command" : "filter"
+	    	},
+	    	{ "caption": "-" },
+	    	{
+	    		"caption" : "Factory",
+	    		"command" : "factory"
+	    	},
+	    	{
+	    		"caption" : "Service",
+	    		"command" : "service"
+	    	},
+	    	{
+	    		"caption" : "Decorator",
+	    		"command" : "decorator"
+	    	},
+	    	{ "caption": "-" },
+	    	{
+	    		"caption" : "Provider",
+	    		"command" : "provider"
+	    	},
+	    	{
+	    		"caption" : "Value",
+	    		"command" : "value"
+	    	},
+	    	{
+	    		"caption" : "Constant",
+	    		"command" : "constant"
+	    	}
+	    ]
+	}
+]
