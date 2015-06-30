@@ -30,9 +30,26 @@
 	    		"command" : "bower_install"
 	    	},
 	    	{
+	    		"caption" : "Install package by name",
+	    		"command" : "bower_install_by_name"
+	    	},
+	    	{
+	    		"caption" : "Update package",
+	    		"command" : "bower_update"
+	    	},
+	    	{
 	    		"caption" : "Uninstall package",
 	    		"command" : "bower_uninstall"
-	    	}
+	    	},
+	    	{ "caption": "-" },
+	    	{
+	    		"caption" : "Install all package",
+	    		"command" : "bower_install_dependencies"
+	    	},
+	    	{
+	    		"caption" : "Update all package",
+	    		"command" : "bower_update_dependencies"
+	    	},
 	    ]
 	},
 	{
