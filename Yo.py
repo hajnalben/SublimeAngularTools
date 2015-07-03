@@ -14,6 +14,9 @@ class YoCommand(Base.InputCommand):
 		
 		self.startCommand(command)
 
+	def is_visible(self):
+		return self.projectFolderExists("app/") and self.projectFolderExists("test/")
+
 ## Route
 class RouteCommand(YoCommand):
 

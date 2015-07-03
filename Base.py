@@ -63,6 +63,12 @@ class BaseCommand(sublime_plugin.WindowCommand):
 		with open(filename, encoding="utf8") as f:
 			return f.read()
 
+	def projectFileExists(self, filename):
+		return os.path.exists(self.getProjectPath() + "/" + filename) 
+
+	def projectFolderExists(self, folderName):
+		return os.path.isdir(self.getProjectPath() + "/" + folderName) 
+
 class InputCommand(BaseCommand):
 
 	def getDefaultValue(self):

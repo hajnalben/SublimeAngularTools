@@ -16,6 +16,9 @@ class GruntCommand(Base.BaseCommand):
 	def process(self):
 		self.startCommand("")
 
+	def is_visible(self):
+		return self.projectFileExists("Gruntfile.js") 
+
 class GruntServeCommand(GruntCommand):
 	
 	def process(self):

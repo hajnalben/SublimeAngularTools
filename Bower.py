@@ -28,6 +28,9 @@ class BowerCommand(Base.BaseCommand):
 
 		return installedPackages
 
+	def is_visible(self):
+		return self.projectFileExists("bower.json")
+
 class BowerInputCommand(Base.InputCommand):
 
 	def getModuleBaseCommand(self):
@@ -37,6 +40,9 @@ class BowerInputCommand(Base.InputCommand):
 		command = self.getComponent() + " " + name + " --save"
 		
 		self.startCommand(command)
+
+	def is_visible(self):
+		return self.projectFileExists("bower.json")
 
 ## ================ Install ====================
 
